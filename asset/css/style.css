@@ -25,6 +25,10 @@
     margin-top: 10px;
 }
 
+header div img{
+    cursor: pointer;
+}
+
 #logo{
     float: left;
 }
@@ -76,6 +80,7 @@ ul li a{
 
 /* main */
 
+/* section 1 */
 
 .bannerimg{
     background-image: url('./../img/jumbo.png') ;
@@ -120,4 +125,43 @@ ul li a{
 .browser{
     color: white;
     background-color: black;
+}
+
+/* section 1 */
+
+
+
+/* section 2 */
+
+.whiteboard{
+    
+    width: 100vw;
+    height: 200vh;
+    position: relative;
+}
+
+.img1contain{
+    
+    width: 60%;
+    height: 30%;
+    display: inline-block;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+
+.textimg1{
+    position: absolute;
+    left: 60%;
+    top: 10%;
+    padding: 20px;
+    
+    color: black;
+}
+
+
+.textimg1 p{
+    margin-top: 20px;
+    font-size: 20px;
 }
