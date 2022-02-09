@@ -83,11 +83,41 @@ ul li a{
     height: 500px;
     background-size: cover;
     display: inline-block;
-    padding: 20px;
+    text-align: center;
+    
 }
 
 
 .bannerimg div a {
     text-decoration: none;
-    margin: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: fit-content;
+    height: max-content;
+    padding: 20px;
+}
+
+.bannerimg h1 {
+    margin-top: 80px;
+    padding: 20px;
+    color: white;
+}
+
+.bannerimg p{
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+.mac{
+    background-color: white;
+    color: black;
+}
+
+.browser{
+    color: white;
+    background-color: black;
 }
