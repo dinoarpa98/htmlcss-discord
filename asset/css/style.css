@@ -1,20 +1,29 @@
+
+/* general */
+ 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.clearfix{
+*{
+    font-family: 'Source Serif 4', sans-serif;
+}
+
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
 
+/* TODO general  */
+
 .container{
-    border: 1px solid #3161E0 ;
+    border: 1px solid #3161E0;
     background-color: #3161E0;
     width: 100%;
-    height: 80px;
+    height: 60px;
     position: relative;
 }
 
@@ -92,6 +101,7 @@ ul li a{
     
 }
 
+ 
 
 .bannerimg div a {
     text-decoration: none;
@@ -100,19 +110,21 @@ ul li a{
     border-radius: 30px;
     width: fit-content;
     height: max-content;
-    padding: 20px;
+    padding: 10px;
+    font-size: 20px;
 }
 
 .bannerimg h1 {
     margin-top: 80px;
     padding: 20px;
+    font-size: 40px;
     color: white;
 }
 
 .bannerimg p{
     padding: 20px;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 30px;
 }
 
@@ -133,35 +145,23 @@ ul li a{
 
 /* section 2 */
 
-.whiteboard{
-    
-    width: 100vw;
-    height: 200vh;
-    position: relative;
-}
-
-.img1contain{
-    
+.banner{
     width: 60%;
     height: 30%;
-    display: inline-block;
-    position: absolute;
-    top: 10%;
-    left: 20%;
+    transform: translate(40%, 40%);
 }
 
+.banner img{
+    float: left;
+}
 
 .textimg1{
-    position: absolute;
-    left: 60%;
-    top: 10%;
     padding: 20px;
-    
-    color: black;
+    font-size:20px;
+    width: 50vw;
+    height: 50vh;
 }
 
-
 .textimg1 p{
-    margin-top: 20px;
-    font-size: 20px;
+    margin-top: 10px;
 }
